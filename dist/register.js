@@ -16,7 +16,7 @@ var constants_1 = require("./constants");
 var containers_1 = require("./containers");
 addons_1.addons.register(constants_1.ADDON_ID, function (api) {
     addons_1.addons.add(constants_1.ADDON_ID, {
-        title: "Theme Switcher",
+        title: "Post Message",
         type: addons_1.types.TOOL,
         match: function (_a) {
             var viewMode = _a.viewMode;

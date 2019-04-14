@@ -1,3 +1,3 @@
-export declare const ID = "skinswitcher";
-export declare const ADDON_ID = "storybook/skinswitcher";
-export declare const PARAM_KEY = "skinswitcher";
+export declare const ID = "postmessage";
+export declare const ADDON_ID = "storybook/postmessage";
+export declare const PARAM_KEY = "postmessage";
