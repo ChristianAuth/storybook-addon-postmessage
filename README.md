@@ -5,7 +5,7 @@ The PostMessage Addon can be used to send post messages to the preview iframe of
 ## Installation
 
 ```sh
-npm i -D @storybook/addon-backgrounds
+npm i -D storybook-addon-postmessage
 ```
 
 ## Configuration
@@ -17,7 +17,7 @@ Create or edit `addons.js` in your .storybook configuration directory.
 Add following content to it:
 
 ```js
-import '@storybook/addon-backgrounds/register';
+import "storybook-addon-postmessage/register";
 ```
 
 ### Configuration
@@ -37,15 +37,15 @@ addParameters({
         	  // The displayed text
             label: 'Lorem Ipsum',
             // Displayed as a "icon"
-            code: 'LI', 
+            code: 'LI',
             // Text color of the icon
             textColor: 'white',
             // Background color of the icon
-            backgroundColor: '#E6370A',            
+            backgroundColor: '#E6370A',
             // The message that is sent via postMessage
             message: { ... },
             // This is active by default
-            selected: true 
+            selected: true
         }
     ]
 });
